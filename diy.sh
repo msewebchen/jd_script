@@ -2,7 +2,7 @@
 
 # 把此diy.sh放入config即可,会自动同步最新脚本
 # 如有好用的脚本或者脚本更新不及时请@ljhnchina
-# 2021年3月6日 14:11:34
+# 2021年3月6日 15:11:01
 
 ############################## 作者昵称 ##############################
 # 使用空格隔开
@@ -60,7 +60,7 @@ cd $ScriptsDir
 index=1
 for author in $author_list
 do
-  echo -e "############################## 开始下载 $author 的脚本 ##############################"
+  echo -e "############### 开始下载 $author 的脚本 ###############"
   # 下载my_scripts_list中的每个js文件，重命名增加前缀"作者昵称_"，增加后缀".new"
   eval scripts_list=\$my_scripts_list_${index}
   eval url_list=\$scripts_base_url_${index}
