@@ -59,7 +59,7 @@ cd $ScriptsDir
 index=1
 for author in $author_list
 do
-  echo -e "############################## 开始下载 $author 的脚本 ##############################"
+  echo -e "############### 开始下载 $author 的脚本 ###############"
   # 下载my_scripts_list中的每个js文件，重命名增加前缀"作者昵称_"，增加后缀".new"
   eval scripts_list=\$my_scripts_list_${index}
   eval url_list=\$scripts_base_url_${index}
