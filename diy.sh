@@ -1,18 +1,7 @@
 #!/usr/bin/env bash
-
 # 把此diy.sh放入config即可,会自动同步最新脚本
 # 如有好用的脚本或者脚本更新不及时请@ljhnchina
-# 2021年3月6日 15:58:46
-
-########################修改更新频率为一小时一次##############################
-echo -e "开始修改更新时间"
-if [ -f ${ListCron} ]; then
-  perl -i -pe "s|.+(bash git_pull.+)|5 \* \* \* \* \1|" ${ListCron}
-  crontab ${ListCron}
-  echo -e "修改更新时间成功"
-else
-  echo -e "修改更新时间失败"
-fi
+# 2021年3月6日 16:07:33
 
 ############################## 作者昵称 ##############################
 # 使用空格隔开
@@ -57,8 +46,6 @@ my_scripts_list_7="jd_priceProtect.js"
 # 维护:shuye72     库地址:https://gitee.com/shuye72/MyActions/tree/main ps:尽量不要使用此人脚本,
 my_scripts_list_8=""
 
-##############################是否使用本地代理(选填)#############################
-Enableproxy="true"
 ############################## 随机函数 ##############################
 rand(){
     min=$1
@@ -105,14 +92,6 @@ do
   index=$[$index+1]
 done
 
-############################## wget下载是否使用代理 ##############################
-    if [ "${Enableproxy}" = "true" ]; then
-        echo -e "使用代理下载"
-        wget -q -e "https_proxy=http://192.168.50.1:3333" --no-check-certificate $url -O $name.new
-    else
-        echo -e "不使用代理下载"
-        wget -q --no-check-certificate $url -O $name.new
-    fi
 ############################## 更新群助力脚本 ##############################
 bash ${ConfigDir}/sharecode.sh
 
