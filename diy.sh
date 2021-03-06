@@ -24,7 +24,7 @@ scripts_base_url_8=https://gitee.com/shuye72/MyActions/raw/main/
 ############################## 脚本名称 ##############################
 # 将相应作者的脚本填写到以下变量中
 # 维护:ljhnchina 库地址:https://raw.githubusercontent.com/ljhnchina/jd_script/
-my_scripts_list_1="diy_shopsign.js jd_crazy_joy_compose.js jd_firecrackers.js jd_submit_code.js jx_cfd.js jx_cfdtx.js z_marketLottery.js"
+my_scripts_list_1="diy_shopsign.js jd_crazy_joy_compose.js jd_firecrackers.js jd_submit_code.js jx_cfd.js jx_cfdtx.js"
 
 # 维护:Tartarus2014 库地址:https://github.com/Tartarus2014/Script
 my_scripts_list_2=""
