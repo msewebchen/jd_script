@@ -1,3 +1,4 @@
+//运行前先安装 axios插件 npm install --save axios
 const axios = require('axios')
 const qs = require('qs')
 const notify = require('./sendNotify');
