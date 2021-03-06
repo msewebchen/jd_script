@@ -1,8 +1,0 @@
-node_modules/
-config/
-.gitignore
-.editorconfig
-package.json
-package-lock.json
-sendNotify.js
-jdCookie.js
