@@ -24,7 +24,7 @@ scripts_base_url_8=https://gitee.com/shuye72/MyActions/raw/main/
 ############################## 脚本名称 ##############################
 # 将相应作者的脚本填写到以下变量中
 # 维护:ljhnchina 库地址:https://raw.githubusercontent.com/ljhnchina/jd_script/
-my_scripts_list_1="diy_shopsign"
+my_scripts_list_1="diy_shopsign.js"
 
 # 维护:Tartarus2014 库地址:https://github.com/Tartarus2014/Script
 my_scripts_list_2=""
