@@ -3,9 +3,7 @@ const qs = require('qs')
 const notify = require('./sendNotify');
 // 小米运动账号
 const accounts = [
-    { phone: '17674505208', password: 'ljhnchina0', steps: random(20000, 21000) }, 
-	{ phone: '18674599176', password: 'ttcs2206506', steps: random(20000, 21000) },
-	{ phone: '17680766886', password: 'ttcs2206506', steps: random(20000, 21000) },
+    { phone: '小米运动帐号', password: '小米运动密码', steps: random(20000, 21000) }, 
 ]
 
 const headers = {
