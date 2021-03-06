@@ -15,7 +15,7 @@ author_list="ljhnchina qq34347476 ZCY01 i-chenzhe"
 # 1.从作者库中随意挑选一个脚本地址，每个作者的地址添加一个即可，无须重复添加
 # 2.将地址最后的 “脚本名称+后缀” 剪切到下一个变量里（my_scripts_list_xxx）
 # scripts_base_url_1=https://gitee.com/qq34347476/quantumult-x/raw/master/
-scripts_base_url_1=https://raw.sevencdn.com/ljhnchina/jd_script/master/scripts/
+scripts_base_url_1=https://raw.githubusercontent.com/ljhnchina/jd_script/master/scripts/
 scripts_base_url_2=https://raw.githubusercontent.com/qq34347476/js_script/master/scripts/
 scripts_base_url_3=https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/
 scripts_base_url_4=https://raw.githubusercontent.com/i-chenzhe/qx/main/
@@ -87,7 +87,7 @@ done
 ##############################同步 diy.sh ##########################################
 cd $ConfigDir
 echo -e "开始更新 diy.sh "
-wget -q --no-check-certificate https://raw.sevencdn.com/ljhnchina/jd_script/master/diy.sh -O diy.sh.new
+wget -q --no-check-certificate https://raw.githubusercontent.com/ljhnchina/jd_script/master/diy.sh -O diy.sh.new
 if [ $? -eq 0 ]; then
   mv -f diy.sh.new diy.sh
   echo -e "更新 diy.sh 完成"
