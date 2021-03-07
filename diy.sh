@@ -94,23 +94,3 @@ done
 
 ############################## 更新群助力脚本 ##############################
 bash ${ConfigDir}/sharecode.sh
-
-############################## 更新diy.sh ##############################
-cd $ConfigDir
-echo -e "开始更新 diy.sh "
-wget -q --no-check-certificate https://ghproxy.com/https://raw.githubusercontent.com/ljhnchina/jd_script/master/diy.sh -O diy.sh.new
-if [ $? -eq 0 ]; then
-  mv -f diy.sh.new diy.sh
-  echo -e "更新 diy.sh 完成"
-else
-  rm -rf diy.sh.new
-  echo -e "更新 diy.sh 失败，使用上一次正常的版本...\n"
-fi
-
-function updatePanel {
-    cp -r $JD_DIR/scripts2/panel/* $JD_DIR/panel
-}
-
-clearCode
-updateCodeUrl
-updatePanel
