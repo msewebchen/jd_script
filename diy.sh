@@ -2,7 +2,7 @@
 # 把此diy.sh放入config即可,会自动同步最新脚本
 # 如有好用的脚本或者脚本更新不及时请@ljhnchina
 # 2021年3月7日 16:38:58
-
+SCRIPTS_DIR="$JD_DIR/scripts"
 ############################## 作者昵称 ##############################
 # 使用空格隔开
 author_list="ljhnchina Tartarus2014 i-chenzhe whyour moposmall qq34347476 ZCY01 shuye72"
@@ -95,7 +95,7 @@ done
 ############################## 更新群助力脚本 ##############################
 bash ${ConfigDir}/sharecode.sh
 
-SCRIPTS_DIR="$JD_DIR/scripts"
+
 ## 净化脚本内置助力
 function clearCode {
     for file in $SCRIPTS_DIR/*.js; do
