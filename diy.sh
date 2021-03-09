@@ -2,7 +2,7 @@
 
 # 把此diy.sh放入config即可,会自动同步最新脚本
 # 如有好用的脚本或者脚本更新不及时请@ljhnchina
-# 2021年3月9日 18:59:33
+# 2021年3月9日 21:43:52
 
 ############################## 作者昵称 ##############################
 # 使用空格隔开
@@ -24,7 +24,7 @@ scripts_base_url_9=https://gitee.com/shuye72/MyActions/raw/main/
 
 ############################## 脚本名称 ##############################
 # 将相应作者的脚本填写到以下变量中
-# 维护:ljhnchina 库地址:https://raw.githubusercontent.com/ljhnchina/jd_script/
+# 维护:ljhnchina 库地址:https://github.com/ljhnchina/jd_script/
 my_scripts_list_1="jd_crazy_joy_compose.js jd_firecrackers.js jd_submit_code.js jx_cfd.js jd_daydlt.js"
 
 # 维护:Tartarus2014 库地址:https://github.com/Tartarus2014/Script
