@@ -2,7 +2,7 @@
 
 # 把此diy.sh放入config即可,会自动同步最新脚本
 # 如有好用的脚本或者脚本更新不及时请@ljhnchina
-# 2021年3月9日 21:43:52
+# 2021年3月9日 22:03:25
 
 ############################## 作者昵称 ##############################
 # 使用空格隔开
@@ -31,7 +31,7 @@ my_scripts_list_1="jd_crazy_joy_compose.js jd_firecrackers.js jd_submit_code.js 
 my_scripts_list_2=""
 
 # 维护:i-chenzhe   库地址:https://github.com/i-chenzhe/qx
-my_scripts_list_3="jd_entertainment.js jd_fanslove.js jd_gjmh.js jd_shake.js jd_shakeBean.js z_marketLottery.js jd_xmf.js jd_mlyjy.js jd_jump-jump.js"
+my_scripts_list_3="jd_entertainment.js jd_fanslove.js jd_gjmh.js jd_shake.js jd_shakeBean.js z_marketLottery.js"
 
 # 维护:whyour      库地址:https://github.com/whyour/hundun/tree/master/quanx
 my_scripts_list_4=""
