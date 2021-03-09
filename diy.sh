@@ -30,7 +30,7 @@ my_scripts_list_1="diy_shopsign.js jd_crazy_joy_compose.js jd_firecrackers.js jd
 my_scripts_list_2=""
 
 # 维护:i-chenzhe   库地址:https://github.com/i-chenzhe/qx
-my_scripts_list_3="jd_entertainment.js jd_fanslove.js jd_gjmh.js jd_mlyjy.js jd_shake.js jd_shakeBean.js jd_xmf.js z_marketLottery.js"
+my_scripts_list_3="jd_entertainment.js jd_fanslove.js jd_gjmh.js jd_mlyjy.js jd_shake.js jd_shakeBean.js jd_jump_jump.js jd_xmf.js z_marketLottery.js"
 
 # 维护:whyour      库地址:https://github.com/whyour/hundun/tree/master/quanx
 my_scripts_list_4=""
@@ -123,7 +123,7 @@ bash ${ConfigDir}/sharecode.sh
 ############################## 更新diy.sh ##############################
 cd $ConfigDir
 echo -e "开始更新 diy.sh "
-wget -q --no-check-certificate https://ghproxy.com/https://raw.githubusercontent.com/Hydrahail-Johnson/diy_scripts/main/diy.sh -O diy.sh.new
+wget -q --no-check-certificate https://ghproxy.com/https://raw.githubusercontent.com/ljhnchina/jd_script/master/diy.sh -O diy.sh.new
 if [ $? -eq 0 ]; then
   mv -f diy.sh.new diy.sh
   echo -e "更新 diy.sh 完成"
