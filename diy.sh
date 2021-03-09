@@ -6,7 +6,7 @@
 
 ############################## 作者昵称 ##############################
 # 使用空格隔开
-author_list="Tartarus2014 i-chenzhe whyour moposmall qq34347476 ZCY01 shuye72"
+author_list="ljhnchina Tartarus2014 i-chenzhe whyour moposmall qq34347476 ZCY01 shuye72"
 
 ############################## 脚本地址 ##############################
 # 例如：https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_nc.js
