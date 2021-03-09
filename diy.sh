@@ -6,7 +6,7 @@
 
 ############################## 作者昵称 ##############################
 # 使用空格隔开
-author_list="ljhnchina Tartarus2014 i-chenzhe whyour moposmall qq34347476 ZCY01 shuye72"
+author_list="ljhnchina Tartarus2014 i-chenzhe whyour moposmall qq34347476 ZCY01 Hydrahail shuye72"
 
 ############################## 脚本地址 ##############################
 # 例如：https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_nc.js
@@ -19,12 +19,13 @@ scripts_base_url_4=https://ghproxy.com/https://raw.githubusercontent.com/whyour/
 scripts_base_url_5=https://ghproxy.com/https://raw.githubusercontent.com/moposmall/Script/main/Me/
 scripts_base_url_6=https://ghproxy.com/https://raw.githubusercontent.com/qq34347476/js_script/master/scripts/
 scripts_base_url_7=https://ghproxy.com/https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/
-scripts_base_url_8=https://gitee.com/shuye72/MyActions/raw/main/
+scripts_base_url_8=https://ghproxy.com/https://raw.githubusercontent.com/Hydrahail-Johnson/diy_scripts/main/
+scripts_base_url_9=https://gitee.com/shuye72/MyActions/raw/main/
 
 ############################## 脚本名称 ##############################
 # 将相应作者的脚本填写到以下变量中
 # 维护:ljhnchina 库地址:https://raw.githubusercontent.com/ljhnchina/jd_script/
-my_scripts_list_1="DIY_shopsign.js jd_crazy_joy_compose.js jd_firecrackers.js jd_submit_code.js jx_cfd.js jd_daydlt.js"
+my_scripts_list_1="jd_crazy_joy_compose.js jd_firecrackers.js jd_submit_code.js jx_cfd.js jd_daydlt.js"
 
 # 维护:Tartarus2014 库地址:https://github.com/Tartarus2014/Script
 my_scripts_list_2=""
@@ -44,8 +45,11 @@ my_scripts_list_6="format_share_jd_code.js"
 # 维护:ZCY01       库地址:https://github.com/ZCY01/daily_scripts/tree/main/jd
 my_scripts_list_7="jd_priceProtect.js"
 
+# 维护:Hydrahail   库地址:https://github.com/Hydrahail-Johnson/diy_scripts
+my_scripts_list_8="shopsign.js"
+
 # 维护:shuye72     库地址:https://gitee.com/shuye72/MyActions/tree/main ps:尽量不要使用此人脚本,
-my_scripts_list_8=""
+my_scripts_list_9=""
 
 ############################## 随机函数 ##############################
 rand(){
