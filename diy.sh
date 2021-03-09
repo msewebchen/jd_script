@@ -31,7 +31,7 @@ my_scripts_list_1="jd_crazy_joy_compose.js jd_firecrackers.js jd_submit_code.js 
 my_scripts_list_2=""
 
 # 维护:i-chenzhe   库地址:https://github.com/i-chenzhe/qx
-my_scripts_list_3="jd_entertainment.js jd_fanslove.js jd_gjmh.js jd_shake.js jd_shakeBean.js z_marketLottery.js"
+my_scripts_list_3="jd_entertainment.js jd_fanslove.js jd_gjmh.js jd_shake.js jd_shakeBean.js z_marketLottery.js jd_xmf.js jd_mlyjy.js jd_jump-jump.js"
 
 # 维护:whyour      库地址:https://github.com/whyour/hundun/tree/master/quanx
 my_scripts_list_4=""
