@@ -4,8 +4,8 @@
 #                                                                            #
 #                          自动拉取各个作者库内指定脚本
 #                   把此diy.sh放入config即可,会自动同步最新脚本
-#                    如有好用的脚本或者脚本更新不及时请@ljhnchina
-#                              2021年3月10日 22:34:22
+#                    如有好用的脚本或者脚本更新不及时请@qiao112
+#                              2021年3月11日15:30
 #                                                                            #
 ##############################################################################
 
@@ -83,7 +83,7 @@ jx_cfd_exchange.js
 # 库地址:https://github.com/qq34347476/js_script
 scripts_base_url_6=https://ghproxy.com/https://raw.githubusercontent.com/qq34347476/js_script/master/scripts/
 my_scripts_list_6="
-format_share_jd_code.js
+getShareCode_format.js
 
 "
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -128,8 +128,11 @@ rand(){
 
 ############################## 下载脚本 ##############################
 cd $ScriptsDir
-index=1
 
+############################## 手动删除失效脚本 ##############################
+rm -rf qq34347476_format_share_jd_code.js
+
+index=1
 for author in $author_list
 do
   echo -e "######################### 开始下载 $author 的脚本 #########################"
@@ -192,6 +195,17 @@ do
   done
   index=$[$index+1]
 done
+
+############################## 修改更新频率 ##############################
+echo -e "开始修改更新频率"
+if [ -f ${ListCron} ]; then
+  cron_min=$(rand 1 30) 
+  perl -i -pe "s|.+(bash git_pull.+)|${cron_min} \* \* \* \* \1|" ${ListCron}
+  crontab ${ListCron}
+  echo -e "修改更新频率成功!!!"
+else
+  echo -e "修改更新时间失败..."
+fi
 
 ############################## 更新群助力脚本 ##############################
 bash ${ConfigDir}/sharecode.sh
