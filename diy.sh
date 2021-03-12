@@ -195,17 +195,6 @@ do
   index=$[$index+1]
 done
 
-############################## 修改更新频率 ##############################
-echo -e "开始修改更新频率"
-if [ -f ${ListCron} ]; then
-  cron_min=$(rand 1 30) 
-  perl -i -pe "s|.+(bash git_pull.+)|${cron_min} \* \* \* \* \1|" ${ListCron}
-  crontab ${ListCron}
-  echo -e "修改更新频率成功!!!"
-else
-  echo -e "修改更新时间失败..."
-fi
-
 ############################## 更新群助力脚本 ##############################
 bash ${ConfigDir}/sharecode.sh
 
