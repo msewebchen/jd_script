@@ -20,6 +20,7 @@ qq34347476
 ZCY01
 Hydrahail
 shuye72
+cui521
 
 "
 ######################################################################
@@ -100,7 +101,7 @@ jd_priceProtect.js
 # 库地址:https://github.com/Hydrahail-Johnson/diy_scripts
 scripts_base_url_8=https://ghproxy.com/https://raw.githubusercontent.com/Hydrahail-Johnson/diy_scripts/main/
 my_scripts_list_8="
-shopsign.js
+//shopsign.js
 
 "
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -109,6 +110,15 @@ shopsign.js
 # 库地址:https://gitee.com/shuye72/MyActions/tree/main ps:尽量不要使用此人脚本,
 scripts_base_url_9=https://gitee.com/shuye72/MyActions/raw/main/
 my_scripts_list_9="
+
+"
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+############################## 维护:cui521 ##############################
+# 库地址:https://github.com/cui521/jdqd
+scripts_base_url_10=https://ghproxy.com/https://raw.githubusercontent.com/cui521/jdqd/main/
+my_scripts_list_10="
+DIY_shopsign.js
 
 "
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
