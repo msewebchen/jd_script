@@ -51,7 +51,6 @@ my_scripts_list_2="
 # 库地址:https://github.com/i-chenzhe/qx
 scripts_base_url_3=https://ghproxy.com/https://raw.githubusercontent.com/i-chenzhe/qx/main/
 my_scripts_list_3="
-jd_entertainment.js
 jd_fanslove.js
 jd_shake.js
 jd_shakeBean.js
@@ -138,7 +137,7 @@ rand(){
 cd $ScriptsDir
 
 ############################## 手动删除失效脚本 ##############################
-rm -rf Hydrahail_shopsign.js
+rm -rf i-chenzhe_jd_entertainment
 
 index=1
 for author in $author_list
