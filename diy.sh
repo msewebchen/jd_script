@@ -128,8 +128,7 @@ rand(){
 cd $ScriptsDir
 
 ############################## 手动删除失效脚本 ##############################
-rm -rf i-chenzhe_jd_entertainment
-echo -e "删除失效脚本成功"
+#rm -rf i-chenzhe_jd_entertainment
 
 index=1
 for author in $author_list
