@@ -130,7 +130,7 @@ rand(){
 cd $ScriptsDir
 
 ############################## 手动删除失效脚本 ##############################
-rm -rf qq34347476_format_share_jd_code.js
+#rm -rf qq34347476_format_share_jd_code.js
 
 index=1
 for author in $author_list
