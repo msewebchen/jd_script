@@ -19,7 +19,6 @@ moposmall
 qq34347476
 ZCY01
 Hydrahail
-shuye72
 cui521
 
 "
@@ -104,18 +103,10 @@ my_scripts_list_8="
 "
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-############################## 维护:shuye72 ##############################
-# 库地址:https://gitee.com/shuye72/MyActions/tree/main ps:尽量不要使用此人脚本,
-scripts_base_url_9=https://gitee.com/shuye72/MyActions/raw/main/
-my_scripts_list_9="
-
-"
-#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 ############################## 维护:cui521 ##############################
 # 库地址:https://github.com/cui521/jdqd
-scripts_base_url_10=https://ghproxy.com/https://raw.githubusercontent.com/cui521/jdqd/main/
-my_scripts_list_10="
+scripts_base_url_9=https://ghproxy.com/https://raw.githubusercontent.com/cui521/jdqd/main/
+my_scripts_list_9="
 DIY_shopsign.js
 
 "
