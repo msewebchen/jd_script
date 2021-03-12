@@ -33,10 +33,10 @@ WhichDep=$(grep "/jd-base" "${ShellDir}/.git/config")
 Scripts2URL=https://github.com/ljhnchina/jd_script.git
 
 if [[ ${WhichDep} == *github* ]]; then
-  ScriptsURL=https://github.com/ljhnchina/lxk0301.git
+  ScriptsURL=https://gitee.com/oolool/jd_scripts.git
   ShellURL=https://github.com/EvineDeng/jd-base
 else
-  ScriptsURL=https://github.com/ljhnchina/lxk0301.git
+  ScriptsURL=https://gitee.com/oolool/jd_scripts.git
   ShellURL=https://gitee.com/evine/jd-base
 fi
 
@@ -135,7 +135,7 @@ function Change_ALL {
     . ${FileConf}
     if [ -n "${Cookie1}" ]; then
       Count_UserSum
-      Change_JoyRunPins
+      # Change_JoyRunPins
     fi
   fi
 }
@@ -379,7 +379,6 @@ if [[ ${ExitStatusShell} -eq 0 ]]; then
   [ -d ${Scripts2Dir}/.git ] && Git_PullScripts2 || Git_CloneScripts2
   cp -f ${Scripts2Dir}/jd_*.js ${ScriptsDir}
   cp -r ${Scripts2Dir}/git_pull.sh ${JD_DIR}
-  cp -f ${Scripts2Dir}/config.sh.sample ${JD_DIR}/sample/config.sh.sample
 fi
 
 ## 执行各函数
