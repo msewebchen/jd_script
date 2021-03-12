@@ -52,7 +52,6 @@ scripts_base_url_3=https://ghproxy.com/https://raw.githubusercontent.com/i-chenz
 my_scripts_list_3="
 jd_entertainment.js
 jd_fanslove.js
-jd_gjmh.js
 jd_shake.js
 jd_shakeBean.js
 z_marketLottery.js
@@ -130,7 +129,7 @@ rand(){
 cd $ScriptsDir
 
 ############################## 手动删除失效脚本 ##############################
-#rm -rf qq34347476_format_share_jd_code.js
+rm -rf i-chenzhe_jd_gjmh.js
 
 index=1
 for author in $author_list
