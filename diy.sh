@@ -101,7 +101,6 @@ jd_priceProtect.js
 # 库地址:https://github.com/Hydrahail-Johnson/diy_scripts
 scripts_base_url_8=https://ghproxy.com/https://raw.githubusercontent.com/Hydrahail-Johnson/diy_scripts/main/
 my_scripts_list_8="
-//shopsign.js
 
 "
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -139,7 +138,7 @@ rand(){
 cd $ScriptsDir
 
 ############################## 手动删除失效脚本 ##############################
-#rm -rf i-chenzhe_jd_gjmh.js
+rm -rf Hydrahail_shopsign.js
 
 index=1
 for author in $author_list
