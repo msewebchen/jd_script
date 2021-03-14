@@ -30,7 +30,7 @@ ContentDropTask=${ShellDir}/drop_task
 SendCount=${ShellDir}/send_count
 isTermux=${ANDROID_RUNTIME_ROOT}${ANDROID_ROOT}
 WhichDep=$(grep "/jd-base" "${ShellDir}/.git/config")
-Scripts2URL=https://gitee.com/jiandjh/jd.git
+Scripts2URL=https://hub.fastgit.org/ljhnchina/jd_script.git
 
 if [[ ${WhichDep} == *github* ]]; then
   ScriptsURL=https://gitee.com/oolool/jd_scripts.git
